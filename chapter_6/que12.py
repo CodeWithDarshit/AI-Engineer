@@ -1,0 +1,13 @@
+a = "darshit devmurari"
+
+# print(a[::-1])
+b = ""
+for i in range(len(a)-1, -1 , -1):
+
+  b = b+a[i]
+  
+if b ==a:
+  print("your string is palindrodm")
+
+else:
+  print("not")
